@@ -14,6 +14,8 @@ EXPOSE 8000
 
 COPY . .
 
+RUN apt-get update && apt-get install -y mysql-client
+
 ENV DB_HOST=localhost
 ENV DB_PORT=3306
 ENV DB_USERNAME=your-username
