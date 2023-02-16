@@ -1,0 +1,9 @@
+# Dependency directories
+__pycache__
+
+# dotenv environment variables file
+.env
+
+# devDependencies
+.eslintrc.json
+.prettierrc
